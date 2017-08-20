@@ -12,7 +12,7 @@ import KeychainAccess
 public struct KeychainWrapper {
     
     private static var k: Keychain {
-        return Keychain(service: "com.LexTang.VPNOn")
+        return Keychain(service: "org.supery.VPNOn")
     }
 
     public static func setPassword(_ password: String, forVPNID VPNID: String) {

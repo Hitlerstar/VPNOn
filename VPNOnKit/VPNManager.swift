@@ -11,7 +11,7 @@ import NetworkExtension
 import CoreData
 import MMDB
 
-private let kAppGroupIdentifier = "group.VPNOn"
+private let kAppGroupIdentifier = "group.org.supery"
 
 private let instance = VPNManager()
 
